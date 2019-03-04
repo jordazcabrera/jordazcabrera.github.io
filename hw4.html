@@ -9,17 +9,20 @@
    body { color: #333333; background: url(student.jpg) no-repeat top right, url(elementarystudent.png) no-repeat bottom left, #B0C4DE; }
 h1 { color: blue; text-align:center 
     } 
+    
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
+    display: inline-flex; 
+    flex-flow: column;  
     padding: 5px;
     max-width: 330px;
-    margin: auto;
+    margin-right: auto; 
     }
 img {
     min-width: 330px;
-    max-height: 280px;
+    max-height: 250px;
+    
+    
 }
 figcaption {
     background-color: #222;
@@ -27,26 +30,43 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+   
 }
-   .contactinfo {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-   /* background-color: SteelBlue;*/
-    color: white;
-    text-align: center;
+.contact {
+  text-align: center;
 }
 </style>
 </head>
 <body>
 <h1>Mission Learning Elementary School</h1>
-<p>Mission Learning Elementary School is one of the largest and oldest Elementary Schools in the Bay Area, located in the San Francisco's Mission District. It was founded in 1916 by a group of missionaries committed to academic excellence through a standards-based curriculum. The school opened their doors to the community with only one classroom , 10 children, no blackboard, no books but with the conviction to develop each child’s full potential. Today, we have a total of 30 classrooms, over 500 students, and a faculty of 50+ professionals and graduates of top universities who are experts in their field of study. We provide free lunches, books, and tuition based on families needs and eligibility. <br><br> Throughout the years, we have encouraged our students to achieve academic excellence and to lead a well-balanced life. We teach our students the value of social responsibility and the acceptance of others in this multi-cultural society. We want our students to have a strong foundation in traditional areas of study such as science, math, and language arts and to develop an important set of skills including critical thinking, creativity, communication, problem solving, and collaboration.</p>
-<figure>
-   <img src="missionlearning.jpg" alt="mission learning elementary school image">
-   <figcaption>Mission Learning Elementary</figcaption>
-</figure>
- <div class="contactinfo">
-    <p>450 Church Street, San Francisco, CA 94123 | 415-123-4567 Phone | 415-876-5432 Fax | Mon - Fri: 8:00 am - 4:00 pm</p></div>
+    <p>Mission Learning Elementary School is one of the largest and oldest Elementary Schools in the Bay Area, located in the San Francisco's Mission District. It was founded in 1916 by a group of missionaries committed to academic excellence through a standards-based curriculum. The school opened their doors to the community with only one classroom , 15 children, no blackboard, no books but with the conviction to develop each child’s full potential and to promote catholic values. Today, we have a total of 33 classrooms, over 400 students, and a faculty of 50+ professionals and graduates of top universities who are experts in their field of study.</p>
+<h2>Our Mission</h2>
+    <p>Throughout the years, we have encouraged our students to achieve academic excellence and to lead a well-balanced life. We teach our students the value of social responsibility and the acceptance of others in this multi-cultural society. We have established a culture of continuous school improvement thanks to our team of teachers, parents, and administrators who are committed to creating the best possible learning environment for students.  We want students to have a strong foundation in traditional areas of study such as science, math, and language arts and to develop an important set of skills including critical thinking, creativity, communication, problem solving, and collaboration.</p>
+<div>
+<span>
+    <figure>
+        <img src="missionlearning.jpg" alt="mission learning elementary image" align="middle">
+        <figcaption>Mission Learning Elementary</figcaption>
+    </figure>
+</span>
+<span>
+    <figure>
+        <img src="missionlearning2.PNG" alt="mission learning science area image" align="middle">
+        <figcaption>Mission Learning Science Area</figcaption>
+    </figure>
+</span>
+<span>
+    <figure>
+        <img src="missionlearning3.PNG" alt="mission learning library image" align="middle">
+        <figcaption>Mission Learning Library</figcaption>
+    </figure>   
+</span>
+</div>
+<div class="contact">
+<h2>Contact Us</h2>
+   <p>450 Church Street, San Francisco, CA 94123<br>Phone: 415-123-4567<br>Fax: 415-876-5432<br> Email: learning_mission_elementary@mail.edu</p>
+      <h3>Office Hours</h3>
+    <p>Mon - Fri: 8:00 am - 4:00 pm</p>
+</div>
 </body>
 </html>
