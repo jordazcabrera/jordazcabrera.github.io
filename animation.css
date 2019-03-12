@@ -1,0 +1,129 @@
+body {
+    background-color: yellow;
+/*    margin: 0;*/
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: red;
+    margin: 0;
+}
+p::first-letter {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;   
+
+}
+.red-tags {
+ color: red  
+}
+h2 {
+    text-align: right;
+    color: blue;
+    font-style: italic;
+}
+
+.bigger-heading {
+    text-align: right;
+    color: blue;
+    font-size: 50px;
+    font-style: italic; 
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: white;
+}
+h3 {
+    text-align: right;
+    color: red;
+}
+       
+td, th {
+/*    border: collapse;*/
+    padding: 10px;
+    color: white; 
+    animation: font 5s; 
+    -moz-animation: font 5s;
+    -webkit-animation: font 5s  
+}
+table {
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-color: green;
+  animation: colorchange 8s;
+  -moz-animation: colorchange 8s;
+  -webkit-animation: colorchange 8s;
+}
+@keyframes colorchange  /* Standard syntax */
+{
+    0%  {background: cyan;}
+    100% {background: green;}
+}
+@-moz-keyframes colorchange /* Firefox */
+{
+    0%  {background: cyan;}
+    100% {background: green;}
+}
+@-webkit-keyframes colorchange /* Safari and Chrome */
+{
+    0%  {background: cyan;}
+    100% {background: green;}
+}
+@keyframes font /* Standard syntax */
+{
+    0%  {color: black;}
+    100% {color: white;}
+
+}
+@-moz-keyframes font  /* Firefox */
+{
+    0%  {color: black;}
+    100% {color: white;}
+}
+@-webkit-keyframes font 5s  /* Safari and Chrome */
+{
+    0%  {color: black;}
+    100% {color: white;}
+}
+
+
+/*banner*/
+div {
+  width: 200px;
+  height: 20px;
+  position: relative;
+  background-color: red;
+  font-style: italic;
+  color: yellow;
+  animation-name: my-banner;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  -moz-animation-name: my-banner;
+  -moz-animation-duration: 15s;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-name: my-banner;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes my-banner /* Standard syntax */
+{
+  0%   {background-color: red; left:0%;}
+  50%  {background-color: red; left:85%}
+  100% {background-color: red; left:0%;}
+}
+@-moz-keyframes my-banner /* Firefox */
+{
+  0%   {background-color: red; left:0%;}
+  50%  {background-color: red; left:85%}
+  100% {background-color: red; left:0%;}
+}
+@-webkit-keyframes my-banner /* Safari and Chrome */
+{
+  0%   {background-color: red; left:0%;}
+  50%  {background-color: red; left:85%}
+  100% {background-color: red; left:0%;}
+}
