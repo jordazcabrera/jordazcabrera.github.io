@@ -45,9 +45,9 @@ td, th {
 /*    border: collapse;*/
     padding: 10px;
     color: white; 
-    animation: font 5s; 
-    -moz-animation: font 5s;
-    -webkit-animation: font 5s  
+    animation: font 8s; 
+    -moz-animation: font 8s;
+    -webkit-animation: font 8s  
 }
 table {
   text-align: center;
