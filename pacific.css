@@ -18,7 +18,7 @@
 .item3 {grid-column: 2/3;
         grid-row: 2/3;    
 }
-body {background-color: default;
+body {background-color: #FFFFFF;
       color: #696969;
       background-image: url(background.jpg);
       font-family:'Roboto', Helvetica, sans-serif;
@@ -78,7 +78,7 @@ dt {font-weight: bold;
 #content {position: relative;
          }
 #content #bird {position: absolute;
-                animation-name: little-bird 3s 1 forwards;
+                animation: little-bird 3s 1 forwards;
                 -moz-animation-name: little-bird 3s 1 forwards;
                 -webkit-animation: little-bird 3s 1 forwards;
                }
