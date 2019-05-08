@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<title>CNIT 132 Intermediate HMTL and CSS - Final Project</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Using Form">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href=pacific.css /> 
+</head>
+<body>
+    <form class="form1" action="contact.php" method="post">
+        <label for="firstname">First Name</label><input type="text" name= "firstname" id="firstname" maxlength="15" required class="myinput">
+        <label for="lastname">Last Name</label><input type="text" name="lastname" id="lastname" maxlength="25"  class="myinput">
+        <label for="email">Email Address</label><input type="email" name= "email" id="email"  class="myinput">
+        <label for="telephonenumber">Telephone Number</label><input type="tel" name="telephonenumber" id="telephonenumber" required class="myinput">
+        <label for="guest">Number of Guest</label><input type="number" name="guest" id="guest" min="1" max="20" class="myinput">
+        <label for="comments">Comments:</label><textarea id="comments" name="comments" rows="5" cols="50" class="myinput"></textarea>
+        <div><input type="submit" value="Submit"> &nbsp;&nbsp;&nbsp;&nbsp; <input type="reset" value="Clear"></div>
+    </form>
+</body>
+</html>

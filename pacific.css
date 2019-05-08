@@ -1,0 +1,138 @@
+.wrapper {display: grid;
+          grid-template-columns: 15% auto;
+          grid-template-rows: auto auto;
+          margin: 25px auto; 
+          width: 80%;
+          min-width:960px;
+          box-shadow: 5px 5px 5px grey;
+         }
+.wrapper .item2 {background-color: #ADD8E6;
+    }
+.wrapper .item3 {background-color: #FFFFFF;
+    }
+.item1 {grid-column: 1/3;
+}
+.item2 {grid-column: 1/2;
+        grid-row: 2/3;    
+}
+.item3 {grid-column: 2/3;
+        grid-row: 2/3;    
+}
+body {background-color: default;
+      color: #696969;
+      background-image: url(background.jpg);
+      font-family:'Roboto', Helvetica, sans-serif;
+     } 
+h1 {margin: 0;
+    background-color: #000033;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2 {color: #3399CC;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 2px 2px navy;
+   }
+h3 {color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+   }
+h3, p {margin: 10px;
+      }
+#nav a {display: block;
+        font-weight: bold;
+        font-size: 1.2em;
+       }
+#nav ul {list-style: none;
+         margin: 0;
+         padding-left: 0;
+        }
+#content ul {
+    padding: 10px;
+            }
+#changecolor1 {color: #000033;
+              font-weight: bold;
+             }
+#changecolor2 {color: #000033;
+              font-weight: bold;
+             }
+#contact {font-size:90%;
+          clear:both;
+         }
+#footer {font-size:75%;
+         clear:both;
+         font-style: italic;
+        }
+#floatleft {margin-left: auto;
+            margin-top: auto;
+            float: left;
+           } 
+dt {font-weight: bold;
+   }
+#content {position: relative;
+         }
+#content #bird {position: absolute;
+                animation-name: little-bird 3s 1 forwards;
+                -moz-animation-name: little-bird 3s 1 forwards;
+                -webkit-animation: little-bird 3s 1 forwards;
+               }
+@keyframes little-bird {
+            0% {right: 100%} 
+          100% {right: 0;}
+                       }
+@-moz-keyframes little-bird  {
+            0% {right: 100%} 
+          100% {right: 0;}
+                             }
+@-webkit-keyframes little-bird  {
+            0% {right: 100%} 
+          100% {right: 0;}
+                                }
+a:link {text-decoration: none;
+        color: #000033; 
+       }
+a:visited {color: #344873;
+          }
+a:hover { background-color: white;
+        } 
+* {box-sizing: border-box;
+}
+form {
+  padding: 2em;
+  background: #f9f9f9;
+  border: 2px solid #000033;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+form input {
+  margin-bottom: 1rem;
+  background: white;
+  border: 2px solid #9c9c9c;
+}
+label {
+  text-align: left;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+.myinput {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  background-color: #ADD8E6;
+}
+form div { text-align:center; }
+input[type="submit"], input[type="reset"] {
+  background: darkgray;
+  padding: 0.9em;
+  border: 0;
+}
