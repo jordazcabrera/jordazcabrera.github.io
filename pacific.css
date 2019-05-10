@@ -53,8 +53,8 @@ h3, p {margin: 10px;
          margin: 0;
          padding-left: 0;
         }
-#content ul {
-    padding: 10px;
+#content ul li {
+    padding: 2px;
             }
 #changecolor1 {color: #000033;
               font-weight: bold;
