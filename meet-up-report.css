@@ -13,7 +13,8 @@ body {
 #classrooms { margin: 0;
              float: right;
 			 text-align:center;
-			 font-size: 70%; 
+			 font-size: 70%;
+    overflow: auto;
 }
 #wrapper { background-color: #b3c7e6; 
            color: #000066;
@@ -24,7 +25,8 @@ body {
 #header{ background-color: #869dc7;
         color: #00005D; 
         font-size: 100%; 
-        text-align: center;}
+        text-align: center;
+}
 
 #content {padding: 0 0 5px 20px; 
     margin-left: 10px;
