@@ -1,28 +1,11 @@
 * {
   box-sizing: border-box;
 }
-
-
 body {
-/*    background-color: white;*/
-/*      color: black;*/
-/*      background-image: url(background.jpg);*/
       font-family: 'Gugi', cursive;
       margin: 0px auto;
       background-color: #869dc7;
-/*
-      padding-left: 1em;
-      padding-right: 1em;
-*/
      } 
-/*
-h1 { background-color:lightsteelblue;  
-     color:darkblue;
-	 height:80px;   
-     text-align: center;
-    padding-top: .5em;
-}
-*/
 .thinkful {color:darkblue;
     font-weight: bold;
       }
@@ -31,9 +14,7 @@ h1 { background-color:lightsteelblue;
              float: right;
 			 text-align:center;
 			 font-size: 70%; 
-
 }
-
 #wrapper { background-color: #b3c7e6; 
            color: #000066;
            width: 80%;
@@ -42,15 +23,10 @@ h1 { background-color:lightsteelblue;
 }
 #header{ background-color: #869dc7;
         color: #00005D; 
-    font-size: 150%; 
-text-align: center;}
+        font-size: 100%; 
+        text-align: center;}
 
 #content {padding: 0 0 5px 20px; 
     margin-left: 10px;
     color: black;
-/*
-    margin-left: 155px;
-               background-color: #ffffff;
-    color: #000000;
-*/
 }
