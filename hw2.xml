@@ -7,30 +7,30 @@
     <book pages="350">
         <title>Introduction to HTML</title>
         <author>Joseph Gardner</author>
-        <publisher>Press &copy;</publisher>
+        <publisher>Press &#169;</publisher>
     </book>
 
     <book pages="420">
         <title>Networking Infrastructure</title>
         <author>Adam Douglas &amp; Janice Dall</author>
-        <publisher>Cengage;&copy;</publisher>
+        <publisher>Cengage;&#169;</publisher>
     </book>
 
     <book pages="280">
         <title>Soft Skills in IT</title>
         <author>Mark Hunter</author>
-        <publisher>Bolding Publisher&copy;</publisher>
+        <publisher>Bolding Publisher&#169;</publisher>
     </book>
 
     <book pages="510">
         <title>Network Security</title>
         <author>Jennifer Starter &amp; Yuri Adantov</author>
-        <publisher>Wrox&copy;</publisher>
+        <publisher>Wrox&#169;</publisher>
     </book>
 
     <book pages="300">
         <title>XML &amp; JSON</title>
         <author>Stuart Bell</author>
-        <publisher>Cengage;&copy;</publisher>
+        <publisher>Cengage;&#169;</publisher>
     </book>
 </catalog>
